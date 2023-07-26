@@ -10,3 +10,78 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.container {
+    margin-top: 200px !important;
+    width: 120px !important; 
+    height: 500px !important;
+    padding-top: 12px  !important;
+    font-size: 50px !important;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between
+    
+
+}
+
+
+.poste {
+    background-color: black;
+    width: 30px;
+    height: 100px;
+    margin-top: -100px;
+    margin-left: 35px;
+
+}
+
+
+.rojo{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 30px;
+    box-shadow: -30px 0px 10px rgb(255, 251, 251)!important;
+    
+}
+
+.rojo-apagado{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 30px;
+    
+}
+
+.amarillo{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: -30px 0px 10px rgb(255, 251, 251)!important;
+}
+
+.amarillo-apagado{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.verde{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    box-shadow: -30px 0px 10px rgb(255, 251, 251)!important;
+}
+
+.verde-apagado{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
